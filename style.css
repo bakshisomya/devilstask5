@@ -65,7 +65,7 @@ html,body{
 }
 .feat:hover{
     background-color: #fff;
-    box-shadow: 0px 10px 50px #b6b6b6;
+    box-shadow: 0px 10px 50px #b6b6b696;
     transform: scale(1.09);
     border-radius: 10px;
     cursor: pointer;
@@ -156,7 +156,7 @@ html,body{
     #but1:hover
     {
       background-color: #fff;
-      box-shadow: 0px 10px 50px #b6b6b6;
+      box-shadow: 0px 0px 20px rgba(99, 165, 187, 0.582);
       transform: scale(1.01);
       border-radius: 10px;
       cursor: pointer;
@@ -173,6 +173,14 @@ html,body{
       color:rgb(99, 165, 187);
       padding: 20px 40px;
       border-radius: 8px;  
+    }
+    #but2:hover
+    {
+      background-color: transparent;
+      box-shadow: 0px 0px 20px rgba(99, 165, 187, 0.582);
+      transform: scale(1.01);
+      border-radius: 8px;
+      cursor: pointer;
     }
    
  #icons
@@ -251,10 +259,10 @@ padding: 10px 20px;
 #but3:hover
 {
   /* background-color: #fff; */
-      box-shadow: 0px 10px 50px #b6b6b6;
-      transform: scale(1.01);
-      border-radius: 10px;
-      cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(99, 165, 187, 0.582);
+  transform: scale(1.01);
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 #secondPage
@@ -348,10 +356,10 @@ height:80%;
       outline: none;
 }
 
-button:hover
+#thirdPage button:hover
 {
  
-  box-shadow: 0px 10px 50px #b6b6b6;
+  box-shadow: 0px 0px 20px rgba(99, 165, 187, 0.582);
   transform: scale(1.01);
   border-radius: 10px;
   cursor: pointer;
